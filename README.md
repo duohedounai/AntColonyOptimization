@@ -12,6 +12,10 @@ A mixed integer programming model is presented to describe the problem  as follo
 
 <img src="Pictures/model.png" style="zoom: 67%;" />
 
+The model can use CPLEX to obtain the exact solution at a small scale, and use heuristic algorithms to find the good solution quickly when the scale is large. The CPLEX code is here. When there are 3 robots and 8 tasks, the model solving time for CPLEX is as follows:
+
+<img src="Pictures/CplexTime.jpg" style="zoom: 80%;" />
+
 ------
 
 ## Heuristic Solutions
